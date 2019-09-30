@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ScrollingText</string>
+    <string name="article_title">Android Intercept</string>
+    <string name="article_subtitle">Brian &amp; Charles</string>
+    <string name="article_text">
+        <b>Brian</b>\n
+        Brian Pulfer (Switzerland, 21.09.1995) is a computer scientist that recently obtained his
+        bachelor degree from SUPSI (<i>Scuola Universitaria Professionale della Svizzera Italiana</i>)
+         located in Manno.\n\n
+
+        He graduated with a bachelor thesis work about a classifier to disambiguate ambiguous scientific article authors.\n
+        Ever since first studying data science and artificial intelligence, Brian was fascinated
+        by the powerful tools that few math could bring to humanity.\n
+        That\'s the reason why he\'s following a master course in Artificial Intelligence at \'USI\'
+        (<i>Università della Svizzera Italiana</i>)\n\n
+
+        Apart from computer science related topics, Brian is very passionate about sports. In fact,
+        he has been playing football in a team from when he was 16 to when he was 21, and has been frequenting
+         the gym for the last 3 years. He spends most of his free time doing physical activities, studying or
+         playing video-games.\n\n
+
+        Friends of him says that he\'s funny, loyal, smart and <b>very determined</b>.\n\n
+
+        He\'s now a member of the \'<b>Android Intercept</b>\'.\n\n\n\n
+
+
+
+        <b>Charles</b>\n
+        My name is Charles and I am one of the team \'Android Intercept\'.  It was triangle before but now we only got two people.\n\n
+
+        I am from China but I spent my college life in the U. S.  and that is where I got the accent.
+        I lived in LA during that time in the past and I spent the last year in Shanghai. Both of them are big, if not too big , big cities.
+        So, I am really looking forward to living in Lugano for next two years.
+        And I would love to spend some time exploring Switzerland and Europe.
+
+    </string>
+
+
+</resources>
