@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="add_item">Add item</string>
+    <string name="rice">Rice</string>
+    <string name="apple">Apple</string>
+    <string name="spaghetti">Spaghetti</string>
+    <string name="butter">Butter</string>
+    <string name="nutella">Nutella</string>
+    <string name="milk">Milk</string>
+    <string name="eggs">Eggs</string>
+    <string name="bread">Bread</string>
+    <string name="coca_cola">Coca Cola</string>
+    <string name="wine">Wine</string>
+    <string name="water">Water</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="meat">Meat</string>
+    <string name="fish">Fish</string>
+    <string name="potatos">Potatos</string>
+    <string name="flour">Flour</string>
+    <string name="strawberries">Strawberries</string>
+    <string name="salad">Salad</string>
+    <string name="corn_flakes">Corn Flakes</string>
+    <string name="bacon">Bacon</string>
+    <string name="brioches">Brioches</string>
+    <string name="soy_sauce">Soy sauce</string>
+    <string name="coffe">Coffe</string>
+    <string name="beer">Beer</string>
+    <string name="ice_cream">Ice cream</string>
+</resources>
