@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String SAVED_ITEMS_KEY = "SAVED_ITEMS_KEY";
 
+    private static final String ITEM_COUNT_KEY = "ITEM_COUNT_KEY";
     private int currentItemNumber = 0;
 
     TextView[] textViews;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         if(savedInstanceState != null) {
             if (savedInstanceState.getStringArrayList(SAVED_ITEMS_KEY) != null) {
                 ArrayList<String> itemsStrings = savedInstanceState.getStringArrayList(SAVED_ITEMS_KEY);
-                currentItemNumber = itemsStrings.size();
+                currentItemNumber = savedInstanceState.getInt(ITEM_COUNT_KEY);
 
                 for (int i = 0; i < itemsStrings.size(); i++) {
                     textViews[i].setText(itemsStrings.get(i));
@@ -98,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
 
         outState.putStringArrayList(SAVED_ITEMS_KEY, getItemsArrayList());
+        outState.putInt(ITEM_COUNT_KEY, currentItemNumber);
     }
 
     private ArrayList<String> getItemsArrayList() {
