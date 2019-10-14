@@ -84,8 +84,29 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode == REQUEST_ITEM_CODE){
             if(resultCode == REQUEST_ITEM_CODE_OK){
                 if(data.getStringExtra(ITEM_KEY) != null) {
-                    textViews[currentItemNumber].setText(data.getStringExtra(ITEM_KEY));
-                    currentItemNumber++;
+                    String recievedText = data.getStringExtra(ITEM_KEY);
+
+                    boolean already_counting_this_item = false;
+
+                    for(TextView tv : textViews){
+                        String tvText = tv.getText().toString();
+                        if(tvText.contains(recievedText)){
+                            already_counting_this_item = true;
+
+                            if(tvText.contains("x")){
+                                int times = Integer.parseInt(tvText.split("x")[1]);
+                                times = times + 1;
+                                tv.setText(recievedText+ " x"+times);
+                            } else {
+                                tv.setText(recievedText+" x2");
+                            }
+                        }
+                    }
+
+                    if(!already_counting_this_item) {
+                        textViews[currentItemNumber].setText(recievedText);
+                        currentItemNumber++;
+                    }
 
                     if(currentItemNumber == textViews.length)
                         currentItemNumber = 0;
