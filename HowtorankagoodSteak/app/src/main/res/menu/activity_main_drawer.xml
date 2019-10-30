@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_moisture"
+            android:icon="@drawable/ic_menu_moisture"
+            android:title="@string/menu_moisture"/>
+        <item
+            android:id="@+id/nav_tenderness"
+            android:icon="@drawable/ic_menu_tenderness"
+            android:title="@string/menu_tenderness" />
+        <item
+            android:id="@+id/nav_saltiness"
+            android:icon="@drawable/ic_menu_saltiness"
+            android:title="@string/menu_saltiness" />
+        <item
+            android:id="@+id/nav_taste"
+            android:icon="@drawable/ic_menu_taste"
+            android:title="@string/menu_taste" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
